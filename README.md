@@ -1,2 +1,2 @@
 # MindSurf
-# Let's surf on brain waves!
+Let's surf on brain waves!
