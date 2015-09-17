@@ -1,2 +1,2 @@
 # MindSurf
-# Sept 17
+# Let's surf on brain waves!
