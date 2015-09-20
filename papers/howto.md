@@ -11,5 +11,12 @@ method). Another method is to use an IIR filter to track the background level an
 example is shown below in Matlab pseudocode, assuming the first row has been removed from
 the array input_data():"
 
-Matlab package: EEGLAB
-Other solutions: OpenViBE
+Matlab package: EEGLAB http://sccn.ucsd.edu/eeglab/
+
+OpenViBE: http://openvibe.inria.fr
+
+Emokit (Python): https://github.com/daeken/Emokit/blob/master/Announcement.md
+
+Wiki Emotiv: http://wiki.emotiv.com/tiki-index.php?page=EmoState+And+EEG+Logger+Epoc+page
+
+EDF format documentation: http://www.edfplus.info/
