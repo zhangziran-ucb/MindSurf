@@ -20,3 +20,8 @@ Emokit (Python): https://github.com/daeken/Emokit/blob/master/Announcement.md
 Wiki Emotiv: http://wiki.emotiv.com/tiki-index.php?page=EmoState+And+EEG+Logger+Epoc+page
 
 EDF format documentation: http://www.edfplus.info/
+
+"EEG recording was conducted using Ag/AgCl electrodes mounted in a 62-channel Electro-cap (NeuroScan Inc., Eaton, OH). The ground electrode was located 10% anterior to FZ, with linked earlobes serving as references. EEG signals were recorded using a programmable DC coupled broadband SynAmps amplifier (NeuroScan, Inc., El Paso, TX). The EEG signals were amplified (gain 2500, accuracy 0.033/bit) with a recording range set to ± 55 mV in the DC to a 70-Hz frequency range. The EEG signals were digitized at 250 Hz using 16-bit analog-to-digital converters. Impedance was measured at all sites and was kept below 5 kΩ.
+
+From the 62-channel array, EEG recording was filtered in the 2–30 Hz frequency range. The data were checked and corrected for artifacts and eye blinks were removed. The EEG recording was segmented into pieces that contained data from 30 s for encoding and 30 s for retrieval phases. The processed files were subjected to EEG power analysis (see Jaiswal et al., 2010 for details)."
+http://www.sciencedirect.com/science/article/pii/S0167876014016444?via%3Dihub
