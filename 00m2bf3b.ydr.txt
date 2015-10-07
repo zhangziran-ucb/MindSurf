@@ -1,0 +1,554 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   code/Neurosky SDK/__MACOSX/._mdt-r2_5_5
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/._Application Standards
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/._DevelopmentGuide.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/._EULA.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/._ReadMe.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/._ThinkGear Communications Driver
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/._ThinkGear Connector
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/._ThinkGear SDK for .NET
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/._ThinkGear SDK for Mac
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/._ThinkGear Serial Stream SDK
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/Application Standards/._ApplicationStandards.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/Application Standards/._connected_v1.png
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/Application Standards/._connecting1_v1.png
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/Application Standards/._connecting2_v1.png
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/Application Standards/._connecting3_v1.png
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/Application Standards/._nosignal_v1.png
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/._docs
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/._j2me
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/._macosx
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/._win32
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/._winmobile
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/._html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/._javadoc
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._doxygen.css
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._doxygen.png
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._files.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._globals.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._globals_defs.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._globals_func.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._index.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._tab_b.gif
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._tab_l.gif
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._tab_r.gif
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._tabs.css
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._thinkgear_8h.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/._thinkgear_8h_source.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._ThinkGear.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._allclasses-frame.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._allclasses-noframe.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._constant-values.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._deprecated-list.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._help-doc.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._index-all.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._index.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._overview-tree.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._package-frame.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._package-list
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._package-summary.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._package-tree.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._resources
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/._stylesheet.css
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/resources/._inherit.gif
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/._com
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/._javadoc
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/._NeuroSky
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/._ThinkGear
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/._Util
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/._IO
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/._Util
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/IO/._Connection.java
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/IO/._DummyConnection.java
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/IO/._HeadsetConnection.java
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/Util/._DataListener.java
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/Util/._HeadsetData.java
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/Util/._StreamParser.java
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/Util/._MathHelper.java
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/Util/._Vector2.java
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._allclasses-frame.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._allclasses-noframe.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._com
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._constant-values.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._deprecated-list.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._help-doc.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._index-all.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._index.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._overview-frame.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._overview-summary.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._overview-tree.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._package-list
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._resources
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/._stylesheet.css
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/._NeuroSky
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/._ThinkGear
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/._Util
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/._IO
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/._Util
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/._Connection.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/._DummyConnection.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/._HeadsetConnection.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/._package-frame.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/._package-summary.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/._package-tree.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/._DataListener.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/._HeadsetData.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/._StreamParser.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/._package-frame.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/._package-summary.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/._package-tree.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/Util/._MathHelper.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/Util/._Vector2.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/Util/._package-frame.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/Util/._package-summary.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/Util/._package-tree.html
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/resources/._inherit.gif
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/macosx/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/macosx/._ThinkGear.bundle
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/macosx/._how_to_use_the_thinkgear_api_in_xcode_mac_os_x.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/macosx/._thinkgear_api_macosx_example.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/macosx/ThinkGear.bundle/._Contents
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/macosx/ThinkGear.bundle/Contents/._Info.plist
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/macosx/ThinkGear.bundle/Contents/._MacOS
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/macosx/ThinkGear.bundle/Contents/._Resources
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/macosx/ThinkGear.bundle/Contents/MacOS/._ThinkGearBundle
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/macosx/ThinkGear.bundle/Contents/Resources/._English.lproj
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/macosx/ThinkGear.bundle/Contents/Resources/English.lproj/._InfoPlist.strings
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/win32/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/win32/._README.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/win32/._README.txt
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/win32/._ThinkGear.cs
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/win32/._ThinkGear.java
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/win32/._thinkgear.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/win32/._thinkgear.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/win32/._thinkgear.lib
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/win32/._thinkgear_testapp.c
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/win32/._thinkgear_testapp.exe
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/win32/._thinkgear_testraw.c
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/winmobile/._ThinkGear_ARMV4I.cs
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/winmobile/._thinkgear.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/winmobile/._thinkgear_ARMV4I.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Communications Driver/winmobile/._thinkgear_ARMV4I.lib
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/._TGC_Win_change_log.txt
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/._ThinkGearConnectorDevelopmentGuide.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/._ThinkGearConnectorUserGuide.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/._ThinkGearSocketProtocol.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/._macosx
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/._win32
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/macosx/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/macosx/._TGC Installer.pkg
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._BrainDb.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._Connector.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._Jayrock.Json.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._NLog.config
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._NLog.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._PacketFormatter.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._ThinkGear Connector.exe
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._ThinkGear Connector.exe.config
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._ThinkGear.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._WinSparkle.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._zh-CHS
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/._zh-CHT
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/zh-CHS/._ThinkGear Connector.resources.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Connector/win32/zh-CHT/._ThinkGear Connector.resources.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/._Sample Projects
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/._libs
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/._thinkgear.net_sdk_dev_guide_and_api_reference.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/._HelloEEG
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/._HelloEEG.cs
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/._HelloEEG.csproj
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/._HelloEEG.csproj.user
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/._HelloEEG.sln
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/._HelloEEG.v12.suo
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/._app.config
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/._bin
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/._neurosky
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/._obj
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/._Debug
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/._ConsoleApplication.exe
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/._ConsoleApplication.exe.config
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/._ConsoleApplication.pdb
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/._ConsoleApplication.vshost.exe
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/._ConsoleApplication.vshost.exe.config
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/._ConsoleApplication.vshost.exe.manifest
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/._Jayrock.Json.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/._NLog.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/._NLog.xml
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/._ThinkGear.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/._Jayrock.Json.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/._Jayrock.LICENSE.txt
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/._NLog.LICENSE.txt
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/._NLog.config
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/._NLog.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/._NLog.xml
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/._ThinkGear.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/._x86
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/._Debug
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/Debug/._ConsoleApplication.exe
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/Debug/._ConsoleApplication.pdb
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/Debug/._DesignTimeResolveAssemblyReferencesInput.cache
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/Debug/._HelloEEG.csproj.FileListAbsolute.txt
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/Debug/._HelloEEG.csprojResolveAssemblyReference.cache
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/Debug/._TempPE
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/libs/._Jayrock.Json.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/libs/._Jayrock.LICENSE.txt
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/libs/._NLog.LICENSE.txt
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/libs/._NLog.config
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/libs/._NLog.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/libs/._NLog.xml
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for .NET/libs/._ThinkGear.dll
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/._README.txt
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/._Sample Projects
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/._lib
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/._reference
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/._HelloEEG
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/._HelloEEG
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/._HelloEEG.xcodeproj
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/._HelloEEGTests
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/._ThinkGear.framework
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/._project.pbxproj
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/._project.xcworkspace
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/._xcuserdata
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/._contents.xcworkspacedata
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/._xcuserdata
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/xcuserdata/._feideng.xcuserdatad
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/xcuserdata/._neurosky.xcuserdatad
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/xcuserdata/._ttseng.xcuserdatad
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/xcuserdata/feideng.xcuserdatad/._UserInterfaceState.xcuserstate
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/xcuserdata/neurosky.xcuserdatad/._UserInterfaceState.xcuserstate
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/xcuserdata/ttseng.xcuserdatad/._UserInterfaceState.xcuserstate
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/._feideng.xcuserdatad
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/._neurosky.xcuserdatad
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/._ttseng.xcuserdatad
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/feideng.xcuserdatad/._xcschemes
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/feideng.xcuserdatad/xcschemes/._HelloEEG.xcscheme
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/feideng.xcuserdatad/xcschemes/._xcschememanagement.plist
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/neurosky.xcuserdatad/._xcschemes
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/neurosky.xcuserdatad/xcschemes/._HelloEEG.xcscheme
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/neurosky.xcuserdatad/xcschemes/._xcschememanagement.plist
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/ttseng.xcuserdatad/._xcschemes
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/ttseng.xcuserdatad/xcschemes/._HelloEEG.xcscheme
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/ttseng.xcuserdatad/xcschemes/._xcschememanagement.plist
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/._AppDelegate.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/._AppDelegate.m
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/._HelloEEG-Info.plist
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/._HelloEEG-Prefix.pch
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/._en.lproj
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/._main.m
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/en.lproj/._Credits.rtf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/en.lproj/._InfoPlist.strings
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/en.lproj/._MainMenu.xib
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEGTests/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEGTests/._HelloEEGTests-Info.plist
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEGTests/._HelloEEGTests.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEGTests/._HelloEEGTests.m
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEGTests/._en.lproj
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEGTests/en.lproj/._InfoPlist.strings
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/._Headers
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/._Resources
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/._ThinkGear
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/._Versions
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/._A
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/._Current
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/._Headers
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/._Resources
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/._ThinkGear
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Headers/._ORSSerialPort.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Headers/._ORSSerialPortManager.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Headers/._ThinkGear.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Headers/._ThinkGearDelegate.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Resources/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Resources/._Info.plist
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Resources/._en.lproj
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Resources/en.lproj/._InfoPlist.strings
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/._ThinkGear.framework
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/._Headers
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/._Resources
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/._ThinkGear
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/._Versions
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/._A
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/._Current
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/._Headers
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/._Resources
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/._ThinkGear
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Headers/._ORSSerialPort.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Headers/._ORSSerialPortManager.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Headers/._ThinkGear.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Headers/._ThinkGearDelegate.h
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Resources/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Resources/._Info.plist
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Resources/._en.lproj
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Resources/en.lproj/._InfoPlist.strings
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/reference/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear SDK for Mac/reference/._mac_development_guide.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Serial Stream SDK/._.DS_Store
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Serial Stream SDK/._ThinkGearSerialStreamGuide.pdf
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Serial Stream SDK/._ThinkGearStreamParser.c
+#	new file:   code/Neurosky SDK/__MACOSX/mdt-r2_5_5/ThinkGear Serial Stream SDK/._ThinkGearStreamParser.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/Application Standards/ApplicationStandards.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/Application Standards/Thumbs.db
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/Application Standards/connected_v1.png
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/Application Standards/connecting1_v1.png
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/Application Standards/connecting2_v1.png
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/Application Standards/connecting3_v1.png
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/Application Standards/nosignal_v1.png
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/DevelopmentGuide.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/EULA.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ReadMe.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/doxygen.css
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/doxygen.png
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/files.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/globals.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/globals_defs.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/globals_func.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/index.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/tab_b.gif
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/tab_l.gif
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/tab_r.gif
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/tabs.css
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/thinkgear_8h.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/html/thinkgear_8h_source.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/ThinkGear.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/allclasses-frame.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/allclasses-noframe.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/constant-values.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/deprecated-list.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/help-doc.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/index-all.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/index.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/overview-tree.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/package-frame.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/package-list
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/package-summary.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/package-tree.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/resources/inherit.gif
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/docs/javadoc/stylesheet.css
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/IO/Connection.java
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/IO/DummyConnection.java
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/IO/HeadsetConnection.java
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/Util/DataListener.java
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/Util/HeadsetData.java
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/ThinkGear/Util/StreamParser.java
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/Util/MathHelper.java
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/com/NeuroSky/Util/Vector2.java
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/allclasses-frame.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/allclasses-noframe.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/Connection.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/DummyConnection.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/HeadsetConnection.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/package-frame.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/package-summary.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/IO/package-tree.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/DataListener.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/HeadsetData.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/StreamParser.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/package-frame.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/package-summary.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/ThinkGear/Util/package-tree.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/Util/MathHelper.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/Util/Vector2.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/Util/package-frame.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/Util/package-summary.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/com/NeuroSky/Util/package-tree.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/constant-values.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/deprecated-list.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/help-doc.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/index-all.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/index.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/overview-frame.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/overview-summary.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/overview-tree.html
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/package-list
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/resources/inherit.gif
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/j2me/javadoc/stylesheet.css
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/macosx/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/macosx/ThinkGear.bundle/Contents/Info.plist
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/macosx/ThinkGear.bundle/Contents/MacOS/ThinkGearBundle
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/macosx/ThinkGear.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/macosx/how_to_use_the_thinkgear_api_in_xcode_mac_os_x.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/macosx/thinkgear_api_macosx_example.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/win32/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/win32/README.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/win32/README.txt
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/win32/ThinkGear.cs
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/win32/ThinkGear.java
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/win32/thinkgear.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/win32/thinkgear.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/win32/thinkgear.lib
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/win32/thinkgear_testapp.c
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/win32/thinkgear_testapp.exe
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/win32/thinkgear_testraw.c
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/winmobile/ThinkGear_ARMV4I.cs
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/winmobile/thinkgear.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/winmobile/thinkgear_ARMV4I.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Communications Driver/winmobile/thinkgear_ARMV4I.lib
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/TGC_Mac_changelog.txt
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/TGC_Win_change_log.txt
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/ThinkGearConnectorDevelopmentGuide.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/ThinkGearConnectorUserGuide.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/ThinkGearSocketProtocol.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/macosx/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/macosx/TGC Installer.pkg
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/BrainDb.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/Connector.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/Jayrock.Json.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/NLog.config
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/NLog.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/PacketFormatter.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/ThinkGear Connector.exe
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/ThinkGear Connector.exe.config
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/ThinkGear.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/WinSparkle.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/zh-CHS/ThinkGear Connector.resources.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Connector/win32/zh-CHT/ThinkGear Connector.resources.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/HelloEEG.cs
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/HelloEEG.csproj
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/HelloEEG.csproj.user
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/HelloEEG.sln
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/HelloEEG.v12.suo
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/app.config
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/ConsoleApplication.exe
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/ConsoleApplication.exe.config
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/ConsoleApplication.pdb
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/ConsoleApplication.vshost.exe
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/ConsoleApplication.vshost.exe.config
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/ConsoleApplication.vshost.exe.manifest
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/Jayrock.Json.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/NLog.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/NLog.xml
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/bin/Debug/ThinkGear.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/Jayrock.Json.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/Jayrock.LICENSE.txt
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/NLog.LICENSE.txt
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/NLog.config
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/NLog.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/NLog.xml
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/neurosky/ThinkGear.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/Debug/ConsoleApplication.exe
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/Debug/ConsoleApplication.pdb
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/Debug/HelloEEG.csproj.FileListAbsolute.txt
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/Sample Projects/HelloEEG/obj/x86/Debug/HelloEEG.csprojResolveAssemblyReference.cache
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/libs/Jayrock.Json.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/libs/Jayrock.LICENSE.txt
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/libs/NLog.LICENSE.txt
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/libs/NLog.config
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/libs/NLog.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/libs/NLog.xml
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/libs/ThinkGear.dll
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for .NET/thinkgear.net_sdk_dev_guide_and_api_reference.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/README.txt
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.pbxproj
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/xcuserdata/feideng.xcuserdatad/UserInterfaceState.xcuserstate
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/xcuserdata/neurosky.xcuserdatad/UserInterfaceState.xcuserstate
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/project.xcworkspace/xcuserdata/ttseng.xcuserdatad/UserInterfaceState.xcuserstate
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/feideng.xcuserdatad/xcschemes/HelloEEG.xcscheme
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/feideng.xcuserdatad/xcschemes/xcschememanagement.plist
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/neurosky.xcuserdatad/xcschemes/HelloEEG.xcscheme
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/neurosky.xcuserdatad/xcschemes/xcschememanagement.plist
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/ttseng.xcuserdatad/xcschemes/HelloEEG.xcscheme
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG.xcodeproj/xcuserdata/ttseng.xcuserdatad/xcschemes/xcschememanagement.plist
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/AppDelegate.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/AppDelegate.m
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/HelloEEG-Info.plist
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/HelloEEG-Prefix.pch
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/en.lproj/Credits.rtf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/en.lproj/InfoPlist.strings
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/en.lproj/MainMenu.xib
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEG/main.m
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEGTests/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEGTests/HelloEEGTests-Info.plist
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEGTests/HelloEEGTests.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEGTests/HelloEEGTests.m
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/HelloEEGTests/en.lproj/InfoPlist.strings
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Headers
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Resources
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/ThinkGear
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Headers/ORSSerialPort.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Headers/ORSSerialPortManager.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Headers/ThinkGear.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Headers/ThinkGearDelegate.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Resources/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Resources/Info.plist
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/A/ThinkGear
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/Sample Projects/HelloEEG/ThinkGear.framework/Versions/Current
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Headers
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Resources
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/ThinkGear
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Headers/ORSSerialPort.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Headers/ORSSerialPortManager.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Headers/ThinkGear.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Headers/ThinkGearDelegate.h
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Resources/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Resources/Info.plist
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/A/ThinkGear
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/lib/ThinkGear.framework/Versions/Current
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/reference/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear SDK for Mac/reference/mac_development_guide.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Serial Stream SDK/.DS_Store
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Serial Stream SDK/ThinkGearSerialStreamGuide.pdf
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Serial Stream SDK/ThinkGearStreamParser.c
+#	new file:   code/Neurosky SDK/mdt-r2_5_5/ThinkGear Serial Stream SDK/ThinkGearStreamParser.h
+#
+

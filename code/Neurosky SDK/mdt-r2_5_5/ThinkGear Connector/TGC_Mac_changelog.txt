@@ -1,0 +1,114 @@
+﻿Software Name: ThinkGearConnector			
+Version: v4.1.8
+Support Platform: Mac OS X 10.7.5 or above			
+Support Device: MindWave/MindWave Mobile			
+Support Language: English/Simple Chinese						
+
+Note:			
+1.TGC for Mac v2.0 was developed with .net sdk. 			
+2.TGC for Mac v3.0 was developed without our sdk.It have all the algorithms TGC for Mac v2.0 but Blink Strength.			
+3.If ThinkGear sdk for Mac is ready with Blink Strength,we will release TGC v4.0 with all the algorithms.			
+4.From TGC 4.1 we use new GCDAsyncReadPacket library to response connection from third part App
+			
+Summary of Change Log			
+Where:<   >	Folder name or reference		
+  	(New)  	New function or enhancement
+	(Fix)  	Correction to existing function
+
+<4.1.8> Date:2015-04-07
+	(Fix) 1.#689 high priority issue. running TGC without pair headset, then open app it can't be connected.
+	
+<4.1.7> Date:2015-03-12
+	(Fix) 1.#800 10.10,unplug and plug the dongle the “Warning” message still pop up.
+	(Fix) 2.#802 Turn off and turn on the headset,the TGC can’t connect again automatically.
+	(Fix) 3.#692 notification of TGC is abnormally.	
+	(Fix) 4.#693 Meditation Journal can’t connected
+
+<4.1.4> Date:2015-02-15
+	(Fix) 1.#692 review and fixed
+
+<4.1.3> Date:2015-02-12
+	(Fix) 1.#692 growl notification normally for 10.8,10.9,10.10, and pop up only one time on 10.7.5.
+	
+<4.1.2> Date:2015-02-10
+	(Fix) 1.#567 TGC often stuck in red/funnel mode.
+	(Fix) 2.#689 open the app,then pair the headset ,if don’t restart the TGC,it can’t connected
+	(Fix) 3.#385 update personal setting 
+	(Fix) 4.#386 make the HS out of the range and come back ,can not connected
+	(Fix) 5.#692 Mac 10.7.5 notices of TGC is abnormally
+	
+<4.1.0> Date:2015-01-31
+	(New) 1.Auto-Connect to Headset when headset is close.
+	(Fix) 2.#571 Sometimes the BV can't connect successfully.
+	(Fix) 3.#567 TGC often stuck in red/funnel mode.
+	(Fix) 4.#566 When the app is open,the TGC should not switch to grey mode.
+	(Fix) 5.#565 After click "Retry connection",the TGC can't switch to funnel mode and the change of TGC is abnormally.
+	(Fix) 6.#490 When TGC changed from blue to grey, it shouldn't pop up fail connected message.
+	(Fix) 7.#491 The information text in About is editable. 
+	(Fix) 8.#411 When TGC reconnect several times continuously,it will crash.
+	(Fix) 9.#487 When the TGC in connecting status, click the icon, it will stuck.
+	(Fix) 10.#382 When the BV disconnect from headset,the TGC will try to reconnect and then crash.
+	(Fix) 11.#439 When connection is interrupted, the changes of TGC state and Tutorial are incorrect.
+	(Fix) 12.#386 Let headset out of available range then come back, the TGC changes between blue and grey frequently before connect.
+	(Fix) 13. fixed connect status is not correct.
+	
+<4.0.4> Date:2014-12-14
+	(Fix) 1.#488 When the app closed,the TGC can still connected.
+	(Fix) 2.#478 When the TGC in connecting status, click the icon, it will stuck.
+	(Fix) 3.#486 When the TGC connect failed ,the change status of TGC is incorrect.
+	(Fix) 4.#386 Let headset out of available range then come back, the TGC changes between blue and grey frequently before connect.
+	(Fix) 5.#445 The V4.0.2 can't be used in mac 10.6.8.
+	
+	
+<4.0.3> Date:2014-11-25
+	(Fix)1. The V4.0.2 can't be used in mac 10.6.8.
+	(Fix)2. When TGC reconnect several times continuously,it will crash.
+	(Fix)3. The "Retry connection" item shouldn't appear when the TGC is grey.
+	(Fix)4. After installing the TGC and restarting the computer,it can't start automatically.
+	(Fix)5. The TGC can be uninstalled when it is running,but it hasn't been uninstalled completely.
+	(Fix)6. When the BV disconnect from headset,the TGC will try to reconnect and then crash.
+	(Fix)7.When the TGC is connected,the "Retry connection" appeared.
+	(Fix)8. Unplug and plug the dongle,the TGC disconnected,but the app still show connected.
+	(Fix)9. Turn off the headset during TGC is connected,,the TGC and app can't change from connected to disconnected.
+
+<4.0.2> Date:2014-11-5
+	(Fix)1. It can't start automatically after finished installation.
+	(Fix)2. It can run with other versions of TGC at the same time.
+	(Fix)3. Turn off the headset during TGC is connected,the TGC and app can't change from connected to disconnected.
+	(Fix)4. Unplug and plug the dongle,the TGC disconnected,but the app still show connected.
+	(Fix)5. Plug the dongle and don't turn on the MW headset,open the app,the TGC icon still became blue.
+	(Fix)6. When the TGC is connected,the "Retry connection" appeared.
+	(Fix)7. When the BV disconnect from headset,the TGC will try to reconnect and then crash.
+	(Fix)8. The TGC can be uninstalled when it is running,but it hasn't been uninstalled completely.
+	(Fix)9. Uninstall the TGC and install again,the personal settings in preference hasn't been cleared.
+	(Fix)10. Let headset out of available range then come back, the TGC changes between blue and grey frequently before connect.
+	(Fix)11. Restart the computer when the app is running,it will pop up "TGC is not running...".
+	
+<4.0.1> Date:2014-10-21
+	(Fix)1. After TGC connect to app, make the computer into the sleep, then wake it up, the TGC will crash immediately.
+	(Fix)2. After TGC connect to app, then close the app, TGC will crash.
+        (Fix)3. After TGC connect to app, wait about 2-5 mins, TGC will crash.
+        (Fix)4. Don't turn on headset, just start TGC and BV, the TGC will crash.
+	(Fix)5. After TGC connected to app, turn off headset, TGC will crash.
+	(Fix)6. After TGC connect to app, unplug the dongle, TGC will crash everytime.
+	(Fix)7. The current TGC install router is Application/MindWave_Mobile/Utilities, it should change to Application/ThinkGear Connector.
+	(Fix)8. The TGC version is 4.0, it is not official.
+
+<4.0>	Date:2014-08-07	
+	(New)  	Init version.
+
+<3.0.2>			
+	(New)  	Removed the "?" button in general page.This button does not have any function. 	
+	(New)  	Added the "Check for Update" function.	
+	(New)  	Removed the default port in general page.It does not have any function.	
+	(Fix)  	Fixed the issue of Chinese translations.	
+	(Fix)  	Updated the version number to be 3.0.2.Fixed the issue about strange version number as 3.0.1.o.	
+	(Fix)  	This version can run OK on Mac os x 10.6.8 and 10.7.	
+	(Fix)  	Updated the Preferences/Troubleshooting description.	
+	(Fix)  	Fixed the issue that the new TGC can run with the old version at the same time.	
+	(Fix)  	Fixed the issue of connecting with Brainwave Visualizer.	
+	(Fix)  	Fixed the issue  that TGC can not auto run.	
+			
+<3.0.1>			
+	(New)	"Use objective-c to write TGC ,imitate function of previous version."	
+

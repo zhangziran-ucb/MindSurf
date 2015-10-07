@@ -1,0 +1,45 @@
+﻿Software name:		ThinkGear Connector
+Software Version:	v3.2.4.0
+Support Platform:	Windows 8/7/Vista/XP
+Required Component:	.Net4.0
+Support Device:		MindWave/MindWave Mobile
+Support Language:	English/Simple Chinese/Traditional Chinese
+			
+Summary of Changes£∫			
+	Where: 	<   >	Package version number
+	        (New)	New function or enhancement
+		(Fix)	Correction to existing function
+			
+<3.2.4.0>			
+1	(New)	Updated the TGC update link to"http://download.neurosky.com/updates/tgc/..."
+
+2	(Fixed) Fixed the issue that cannot auto run on guest account.	
+						
+<3.2.3.0>			
+1	(New)	Added the output of Fam & Effort.	
+			
+<3.2.2.0>			
+1	(Fixed)	Make the TGC default running with OS start up.	
+2	(Fixed)	Updated the title from ""ThinkGear Connector Preference""to""神念传感器连接程序设置菜单"" in Chinese OS.
+3	(Fixed)	Fixed the cover ""态"" with other button issue in Chinese OS.	
+4	(Fixed)	Updated the ""重试耳机连接"" to ""高级"" in Chinese OS.	
+5	(Fixed)	Updated the Troubleshooting page.Updated the third point in English.And removed the third point in Chinese.	
+			
+<3.2.1.0>			
+1	(Fixed)	Fixed the crash on guest account.	
+2	(New)	Updated platform to .net4.0.	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
