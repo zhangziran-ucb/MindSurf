@@ -1,7 +1,9 @@
+# Creates a text file with the raw data value
+
 # -*- coding: utf-8 -*-
 # vim:set et ts=4 sw=4:
 #
-## Copyright (C) 2012 Ozan Çağlayan <ocaglayan@gsu.edu.tr>
+## Copyright (C) 2012 Ozan Caglayan <ocaglayan@gsu.edu.tr>
 ##
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -415,7 +417,8 @@ def main():
 
     t = datetime.now()
     filename = t.strftime('%Y%m%d%H%M')
-    target = open(filename, 'w')
+    target = open('../../data/emotiv/' + filename, 'w')
+    target.write("Gyro(x) Gyro(y) F3 FC5 AF3 F7 T7 P7 O1 O2 P8 T8 F8 AF4 FC6 F4\n")
     while 1:
         try:
             data = e.get_sample()
