@@ -433,6 +433,8 @@ def main():
                 print "%10s: %5d" % ("Gyro(x)", e.gyroX)
                 print "%10s: %5d" % ("Gyro(y)", e.gyroY)
                 
+                target.write(filename)
+                target.write(' ')
                 target.write(str(e.gyroX))
                 target.write(' ')
                 target.write(str(e.gyroY))
