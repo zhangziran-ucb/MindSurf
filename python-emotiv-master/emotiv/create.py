@@ -433,7 +433,9 @@ def main():
                 print "%10s: %5d" % ("Gyro(x)", e.gyroX)
                 print "%10s: %5d" % ("Gyro(y)", e.gyroY)
                 
-                target.write(filename)
+                timestamp = datetime.now()
+                timestamp = timestamp.strftime('%H:%M:%S.%f')
+                target.write(timestamp)
                 target.write(' ')
                 target.write(str(e.gyroX))
                 target.write(' ')
