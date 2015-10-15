@@ -1,0 +1,150 @@
+clear all, clc
+close all
+warning off
+
+%=========================%
+% Authors: Gaetan & Jyotsna
+% Compagny: BlueMind
+% Date: 09/20/15
+%=========================%
+
+% study type
+theta_study = 0;
+
+% file info
+folder = '/Users/GG/Documents/Documents/Etudes/ESPCI_Paristech/4A/ITE_Berkeley/MindWave/files_to_compare';
+cd(folder)
+files = dir('*.txt');
+
+disp(['> ' num2str(numel(files)) ' files found'])
+
+labels = files.name;
+thetas = cell(1,numel(files));
+int = zeros(1,numel(files));
+kept = zeros(1,numel(files));
+
+c = {'b','r','g','k','c','m'};
+
+for j=1:numel(files)
+    
+% data definition
+file = files(j).name;
+data = load(file);
+
+% Butterworth filter settings
+N = 4; % order
+fs = 512; % sampling frequency (def:200)
+time = 0:1/fs:(length(data)-1)*1/fs; % time array
+
+% plot raw signal
+offset = 1000*(j-1);
+figure(1)
+subplot(1,2,1), plot(time, data+offset,c{j}), hold on
+xlabel('Time (s)'), ylabel('Amplitude'),  title('Raw signals')
+ylim([-1000 numel(files)*1000])
+
+% clean raw signal
+threshold = 100; % (uV)
+[data, kept(j)] = clean_eeg(data, threshold);
+subplot(1,2,2), plot(time, data+offset,c{j}), hold on
+xlabel('Time (s)'), ylabel('Amplitude'),  title('Cleaned signals')
+ylim([-1000 numel(files)*1000])
+
+% filtering settings
+titles =    {'delta',    'theta',    'alpha',    'beta'};
+Wn =        {5,          [8 14],     [16 22],    [22 80]};
+signals = cell(numel(titles),1);
+
+for i=1:numel(signals)
+    % apply filter
+    [b,a] = butter(N,Wn{i}/fs);
+    signal = filter(b,a,data);
+    signals{i} = signal;
+    
+    % plot in frequency domain
+    [freq,amp,~] = BM_fft(signal, fs);
+    figure(2), title('Frequency Content'), hold on
+    subplot(2,2,i), plot(freq,amp), hold on
+    xlabel('Frequency (Hz)')
+    ylabel('Amplitude (uV)')
+    title([titles{i} ' waves'])
+    xlim([0 70])
+    
+    % display decomposed signals
+    figure(3)
+    subplot(numel(titles),1,i), hold on, %plot(time/60, signal,'color',[0.9 0.9 0.9]) 
+    %steps = 60; p = floor(length(signal)/steps);
+    %ssignal = zeros(1,length(signal));
+    %for k=1:steps
+    %    ssignal(1+(k-1)*p:1+k*p) = mean(abs(signal(1+(k-1)*p:1+k*p)));
+    %end
+    ssignal = signal;%smooth(abs(signal),20000);
+    plot(time/60, ssignal,c{j})
+    xlabel('Time (min)'), ylabel('Amplitude')
+    title(['Smoothed ' titles{i} ' signal'])
+    xlim([0 time(end)/60])
+    legend(labels(j)), hold on
+    
+    % save theta signals
+    if i==2
+        thetas{j} = signal; 
+        % signal integration
+        int(j) = sum(abs(signal)) / (kept(j)*length(data));
+    end
+    
+end % end of loop on waves
+
+disp(['> File ' num2str(j) ' treated'])
+end % end loop on files
+
+%disp('> Figures display')
+
+figure(4)
+x = 1:numel(files);
+% plot kept percentages
+subplot(1,2,1), bar(x,kept*100), set(gca,'xticklabel',labels), ylim([0 100])
+ylabel('% of the signal kept after cleaning'), title('Signals quality index')
+% integration of cleaned singals
+subplot(1,2,2), bar(x,int), set(gca,'xticklabel',labels)
+ylabel('Signal integration')
+title('Signal integration')
+
+%=================================================================%
+if theta_study==1
+disp('    ')
+disp('> Theta waves comparison')    
+av_theta = zeros(1,numel(files));
+std_theta = zeros(1,numel(files));
+window = zeros(1,numel(files));
+
+for j=1:numel(files)
+    theta = thetas{j};
+    figure(100), plot(theta), ylim([-200 200])
+    % select time window of interest for each signal (i.e. avoid artifacts)
+    disp(['> Select interesting time area for file ' num2str(j)])
+    [X,~] = ginput(2); % get 2 points
+    sel_theta = abs(theta(X(1):X(2)));
+    av_theta(j) = mean(sel_theta);
+    std_theta(j) = std(sel_theta);
+    window(j) = X(2)-X(1);
+end
+
+figure;
+disp('fig')
+x = 1:numel(files);
+subplot(1,3,1), bar(x,av_theta)
+set(gca,'xticklabel',labels);
+ylabel('Average theta amplitude in selected areas')
+title('Average theta amplitude')
+%
+subplot(1,3,2), bar(x,std_theta)
+set(gca,'xticklabel',labels)
+ylabel('Std deviation in selected areas')
+title('Standard deviation')
+%
+subplot(1,3,3), bar(x,window/512)
+set(gca,'xticklabel',labels)
+ylabel('Std deviation in selected areas')
+title('Selected time window (s)')
+
+end % end if on theta_study
