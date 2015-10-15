@@ -435,8 +435,8 @@ def main():
                 
                 timestamp = datetime.now()
                 timestamp = timestamp.strftime('%H:%M:%S.%f')
-                target.write(timestamp)
-                target.write(' ')
+                # target.write(timestamp)
+                # target.write(' ')
                 target.write(str(e.gyroX))
                 target.write(' ')
                 target.write(str(e.gyroY))
