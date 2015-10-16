@@ -26,7 +26,7 @@ if __name__ == "__main__":
     target = open('../../data/emokit/' + filename+'.txt', 'w')
     target.write("# H:M:S.f Gyro(x) Gyro(y) F3 F4 P7 FC6 F7 F8 T7 P8 FC5 AF4 T8 O2 O1 AF3\n")
     try:
-        while i < fs * 60:
+        while i < fs * 60 * 3:
             packet = headset.dequeue()
             # print packet.gyro_x, packet.gyro_y
             timestamp = datetime.now()
