@@ -36,6 +36,8 @@ import numpy as np
 
 import utils
 
+from sys import argv
+
 
 class EPOCError(Exception):
     """Base class for exceptions in this module."""
@@ -410,6 +412,12 @@ class EPOC(object):
         else:
             self.endpoint.close()
 
+fs = 128
+if len(argv) == 2:
+    minutes = (int)(argv[1][0]);
+else:
+    minutes = 1
+duration = fs*60*minutes
 
 def main():
     """Test function for EPOC class."""
@@ -419,7 +427,10 @@ def main():
     filename = t.strftime('%Y-%m-%d-%H-%M')
     target = open('../../data/emotiv/' + filename+'.txt', 'w')
     target.write("# H:M:S.f Gyro(x) Gyro(y) F3 FC5 AF3 F7 T7 P7 O1 O2 P8 T8 F8 AF4 FC6 F4\n")
-    while 1:
+    
+    iteration = 0
+
+    while iteration<duration:
         try:
             data = e.get_sample()
             # data is [] for each battery packet, e.g. ctr > 127
@@ -435,8 +446,8 @@ def main():
                 
                 timestamp = datetime.now()
                 timestamp = timestamp.strftime('%H:%M:%S.%f')
-                # target.write(timestamp)
-                # target.write(' ')
+                target.write(timestamp)
+                target.write(' ')
                 target.write(str(e.gyroX))
                 target.write(' ')
                 target.write(str(e.gyroY))
@@ -446,8 +457,8 @@ def main():
                     print "%10s: %.2f %20s: %.2f" % (channel, data[i], "Quality", e.quality[channel])
                     target.write(str(data[i]))
                     target.write(' ')
-                    
                 target.write('\n')
+                iteration += 1
         except EPOCTurnedOffError, ete:
             print ete
         except KeyboardInterrupt, ki:

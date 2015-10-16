@@ -9,13 +9,12 @@ import gevent
 from datetime import datetime
 from sys import argv
 
-i = 0
 fs = 128
 if len(argv) == 2:
-    script, minutes = argv
+    minutes = (int)(argv[1][0]);
 else:
     minutes = 1
-T = fs * 60 * minutes
+duration = fs*60*minutes
 
 if __name__ == "__main__":
     headset = Emotiv()
@@ -25,8 +24,9 @@ if __name__ == "__main__":
     filename = t.strftime('%Y-%m-%d-%H-%M')
     target = open('../../data/emokit/' + filename+'.txt', 'w')
     target.write("# H:M:S.f Gyro(x) Gyro(y) F3 F4 P7 FC6 F7 F8 T7 P8 FC5 AF4 T8 O2 O1 AF3\n")
+    iteration
     try:
-        while i < fs * 60 * 3:
+        while iteration < duration:
             packet = headset.dequeue()
             # print packet.gyro_x, packet.gyro_y
             timestamp = datetime.now()
