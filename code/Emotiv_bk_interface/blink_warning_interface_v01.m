@@ -46,7 +46,8 @@ pause off
 %==================%
 
 idx = 1;
-root = '\..\..\data\emokit';
+%root = '\..\..\data\emokit'; % root AD
+root = '/Users/GG/MindSurf/data/emokit'; % root GG
 cd(root)
 
 warning = 0;
