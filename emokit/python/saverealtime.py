@@ -45,8 +45,8 @@ if __name__ == "__main__":
             # print packet.gyro_x, packet.gyro_y
             timestamp = datetime.now()
             timestamp = timestamp.strftime('%H:%M:%S.%f')
-            target.write(timestamp)
-            target.write(' ')
+            # target.write(timestamp)
+            # target.write(' ')
             # target.write(str(packet.gyro_x))
             # target.write(' ')
             # target.write(str(packet.gyro_y))

@@ -46,7 +46,7 @@ pause off
 %==================%
 
 idx = 1;
-root = '/Users/GG/MindSurf/data/emotiv/RT_test_files';
+root = '\..\..\data\emokit';
 cd(root)
 
 warning = 0;
@@ -57,7 +57,7 @@ fs = 128;
 while get(hObject,'Value')
 
 %disp(['> Looking at file ' num2str(idx)])
-current_file = sprintf('test_%02d.txt',idx);
+current_file = sprintf('test%d.txt',idx);
 
 confirm = 0;
 while confirm==0
