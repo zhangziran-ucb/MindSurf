@@ -46,7 +46,8 @@ pause off
 %==================%
 
 idx = 1;
-root = '\..\..\data\emokit';
+% Unix or Windows?
+root = '..\..\data\emokit';
 cd(root)
 
 warning = 0;
