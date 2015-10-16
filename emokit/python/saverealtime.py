@@ -23,17 +23,24 @@ else:
 duration = fs*60*minutes
 
 iteration = 0
+filenumber = 0
 
 if __name__ == "__main__":
     headset = Emotiv()
     gevent.spawn(headset.setup)
     gevent.sleep(0)
-    t = datetime.now()
-    filename = t.strftime('%Y-%m-%d-%H-%M')
-    target = open('../../data/emokit/' + filename+'.txt', 'w')
-    target.write("# H:M:S.f Gyro(x) Gyro(y) F3 F4 P7 FC6 F7 F8 T7 P8 FC5 AF4 T8 O2 O1 AF3\n")
+    
     try:
         while iteration < duration:
+            filenumber = str(iteration//(fs*seconds))
+            filename = '../../data/emokit/test' + filenumber+'.txt'
+            if exists(filename):
+                # Update the existing file
+                target = open(filename, 'a')
+            else:
+                # Create a new temp file
+                target = open(filename, 'w')
+                target.write("# (H:M:S.f) Gyro(x) Gyro(y) F3 F4 P7 FC6 F7 F8 T7 P8 FC5 AF4 T8 O2 O1 AF3\n")
             packet = headset.dequeue()
             # print packet.gyro_x, packet.gyro_y
             timestamp = datetime.now()

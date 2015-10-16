@@ -428,25 +428,21 @@ duration = fs*60*minutes
 def main():
     """Test function for EPOC class."""
     e = EPOC()
-
-    t = datetime.now()
-    #filename = t.strftime('%Y-%m-%d-%H-%M')
-    #target = open('../../data/emotiv/' + filename+'.txt', 'w')
-    #target.write("# H:M:S.f Gyro(x) Gyro(y) F3 FC5 AF3 F7 T7 P7 O1 O2 P8 T8 F8 AF4 FC6 F4\n")
     
     iteration = 0
     filenumber = 0
 
     while iteration<duration:
         try:
-            #create a new temp file
             filenumber = str(iteration//(fs*seconds))
             filename = '../../data/emotiv/test' + filenumber+'.txt'
             if exists(filename):
+                # Update the existing file
                 target = open(filename, 'a')
             else:
+                #create a new temp file
                 target = open(filename, 'w')
-                target.write("# H:M:S.f Gyro(x) Gyro(y) F3 FC5 AF3 F7 T7 P7 O1 O2 P8 T8 F8 AF4 FC6 F4\n")
+                target.write("# (H:M:S.f) Gyro(x) Gyro(y) F3 FC5 AF3 F7 T7 P7 O1 O2 P8 T8 F8 AF4 FC6 F4\n")
             
             data = e.get_sample()
             # data is [] for each battery packet, e.g. ctr > 127
@@ -462,8 +458,8 @@ def main():
                 
                 timestamp = datetime.now()
                 timestamp = timestamp.strftime('%H:%M:%S.%f')
-                target.write(timestamp)
-                target.write(' ')
+                # target.write(timestamp)
+                # target.write(' ')
                 target.write(str(e.gyroX))
                 target.write(' ')
                 target.write(str(e.gyroY))
