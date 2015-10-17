@@ -36,14 +36,14 @@ if __name__ == "__main__":
         while iteration < duration:
             packet = headset.dequeue()
             # print packet.gyro_x, packet.gyro_y
-            timestamp = datetime.now()
-            timestamp = timestamp.strftime('%H:%M:%S.%f')
-            target.write(timestamp)
+            # timestamp = datetime.now()
+            # timestamp = timestamp.strftime('%H:%M:%S.%f')
+            # target.write(timestamp)
+            # target.write(' ')
+            target.write(str(packet.gyro_x))
             target.write(' ')
-            # target.write(str(packet.gyro_x))
-            # target.write(' ')
-            # target.write(str(packet.gyro_y))
-            # target.write(' ')
+            target.write(str(packet.gyro_y))
+            target.write(' ')
             for k in enumerate(headset.sensors):
                     if k[1] not in ["Y","X","Unknown"]:
                         target.write(str(headset.sensors[k[1]]['value']))
