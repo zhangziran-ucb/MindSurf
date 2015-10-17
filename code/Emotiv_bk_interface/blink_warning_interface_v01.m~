@@ -27,7 +27,7 @@ handles.output = hObject;
 clc
 % init data
 handles.bk = 0;
-handles.ref = 0.2;
+handles.ref = 0;
 handles.nb_seg = 0;
 set(handles.warning,'visible','off')
 % Update handles structure
@@ -47,9 +47,9 @@ pause off
 %==================%
 
 idx = 0;
-root = '..\..\data\emokit' % root AD
+%root = '..\..\data\emokit' % root AD
 %root = '/Users/GG/MindSurf/data/emokit'; % root GG
-%root = '/Users/GG/Documents/Documents/Etudes/ESPCI_Paristech/4A/ITE_Berkeley/Emotiv/RT_test'; % temp root for test
+root = '/Users/GG/Documents/Documents/Etudes/ESPCI_Paristech/4A/ITE_Berkeley/Emotiv/RT_test'; % temp root for test
 cd(root)
 
 nb_seg = handles.nb_seg;
@@ -114,7 +114,7 @@ S = double(C{3}+C{12}+C{1}+C{14}-C{7}-C{8});
 threshold = 150;
 min_dist = 0; % in nb of pts
 subplot(1,3,2), findpeaks(S,'MinPeakProminence',threshold,'MinPeakDistance',min_dist,'Annotate','extents') % display local max
-xlabel('time []'),ylabel('Amplitude [uV]'), title('Blinkings identification')
+xlabel('time')
 [peaks,locs,w,p] = findpeaks(S,'MinPeakProminence',threshold,'MinPeakDistance',min_dist);
 w = w/fs;
 
