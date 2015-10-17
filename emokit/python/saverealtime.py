@@ -43,8 +43,8 @@ if __name__ == "__main__":
                 target.write("# (H:M:S.f) Gyro(x) Gyro(y) F3 F4 P7 FC6 F7 F8 T7 P8 FC5 AF4 T8 O2 O1 AF3\n")
             packet = headset.dequeue()
             # print packet.gyro_x, packet.gyro_y
-            timestamp = datetime.now()
-            timestamp = timestamp.strftime('%H:%M:%S.%f')
+            # timestamp = datetime.now()
+            # timestamp = timestamp.strftime('%H:%M:%S.%f')
             # target.write(timestamp)
             # target.write(' ')
             target.write(str(packet.gyro_x))
@@ -55,7 +55,9 @@ if __name__ == "__main__":
                     if k[1] not in ["Y","X","Unknown"]:
                         target.write(str(headset.sensors[k[1]]['value']))
                         target.write(' ')
-            target.write('\n')
+            # 101%10 = 1
+            if (iteration+1)%(fs*seconds):
+                target.write('\n')
             gevent.sleep(0)
             iteration += 1
     except KeyboardInterrupt:

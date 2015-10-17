@@ -46,9 +46,9 @@ pause off
 %==================%
 
 idx = 0;
-%root = '' % root AD
+root = '..\..\data\emokit' % root AD
 %root = '/Users/GG/MindSurf/data/emokit'; % root GG
-root = '/Users/GG/Documents/Documents/Etudes/ESPCI_Paristech/4A/ITE_Berkeley/Emotiv/RT_test' % temp root for test
+%root = '/Users/GG/Documents/Documents/Etudes/ESPCI_Paristech/4A/ITE_Berkeley/Emotiv/RT_test' % temp root for test
 cd(root)
 
 nb_seg = handles.nb_seg;
@@ -73,6 +73,9 @@ while confirm==0
         disp(['> File ' current_file ' existing'])
         data = textscan(file,'%q %q %d %d %d %d %d %d %d %d %d %d %d %d %d %d','HeaderLines',1,'Delimiter','\t');
         %data = textscan(file,'%d %d %d %d','HeaderLines',1,'Delimiter','\t');
+        length = numel(data{1})
+        expected = seg_time*fs
+        pause(1)
         if numel(data{1}) == seg_time*fs
         %if numel(data{1})==10+1
             disp(['> File ' current_file ' complete'])
