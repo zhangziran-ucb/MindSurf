@@ -75,7 +75,6 @@ while confirm==0
         %data = textscan(file,'%d %d %d %d','HeaderLines',1,'Delimiter','\t');
         length = numel(data{1})
         expected = seg_time*fs
-        pause(1)
         if numel(data{1}) == seg_time*fs
         %if numel(data{1})==10+1
             disp(['> File ' current_file ' complete'])
@@ -85,6 +84,7 @@ while confirm==0
     else
         disp(['> File ' current_file ' not existing'])
     end
+    uiwait(gcf,1)
 end
 
 try
