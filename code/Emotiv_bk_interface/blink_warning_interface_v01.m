@@ -24,6 +24,7 @@ function blink_warning_interface_v01_OpeningFcn(hObject, eventdata, handles, var
 % Choose default command line output for blink_warning_interface_v01
 handles.output = hObject;
 
+clc
 % init data
 handles.bk = 0;
 handles.ref = 0;
@@ -46,9 +47,9 @@ pause off
 %==================%
 
 idx = 0;
-root = '..\..\data\emokit' % root AD
+%root = '..\..\data\emokit' % root AD
 %root = '/Users/GG/MindSurf/data/emokit'; % root GG
-%root = '/Users/GG/Documents/Documents/Etudes/ESPCI_Paristech/4A/ITE_Berkeley/Emotiv/RT_test' % temp root for test
+root = '/Users/GG/Documents/Documents/Etudes/ESPCI_Paristech/4A/ITE_Berkeley/Emotiv/RT_test'; % temp root for test
 cd(root)
 
 nb_seg = handles.nb_seg;
@@ -71,10 +72,9 @@ while confirm==0
     if exist(current_file,'file')==2 % check file existence
         file = fopen(current_file,'r');
         disp(['> File ' current_file ' existing'])
-        data = textscan(file,'%q %q %d %d %d %d %d %d %d %d %d %d %d %d %d %d','HeaderLines',1,'Delimiter','\t');
+        data = textscan(file,'%q %q %d %d %d %d %d %d %d %d %d %d %d %d %d %d','HeaderLines',1,'Delimiter',' ');
         %data = textscan(file,'%d %d %d %d','HeaderLines',1,'Delimiter','\t');
         if numel(data{1}) == seg_time*fs
-        %if numel(data{1})==10+1
             disp(['> File ' current_file ' complete'])
             confirm = 1;
             nb_seg = nb_seg+1;
@@ -85,7 +85,7 @@ while confirm==0
     uiwait(gcf,1)
 end
 
-try
+%try
 %===========%
 % DEFINE DATA
 %===========%
@@ -97,6 +97,7 @@ C = cell(1,numel(data)-2);
 for i=3:numel(data) % without gyro
     %C{i} = C{i}(end-fs*1:end); % keep only last second
     C{i-2} = data{i};
+    disp(['  > Channel ' num2str(i-2) ' saved'])
     %C{i-2} = C{i-2} - mean(C{i-2}); % remove offset
 end
 %time = 0:1/fs:(length(C{1})-1)*1/fs; % time array
@@ -106,12 +107,13 @@ end
 %================%
 
 % define signal
-%S = C{3}+C{12}+C{1}+C{14}-C{7}-C{8};
-S = double(C{1});
+S = double(C{3}+C{12}+C{1}+C{14}-C{7}-C{8});
+%subplot(1,2,2), plot(S)
+%S = double(C{1});
 % find local maxs => artifacts
 threshold = 150;
 min_dist = 0; % in nb of pts
-%figure, findpeaks(S,'MinPeakProminence',threshold,'MinPeakDistance',min_dist,'Annotate','extents') % display local max
+%subplot(1,2,2), findpeaks(S,'MinPeakProminence',threshold,'MinPeakDistance',min_dist,'Annotate','extents') % display local max
 [peaks,locs,w,p] = findpeaks(S,'MinPeakProminence',threshold,'MinPeakDistance',min_dist);
 w = w/fs;
 
@@ -164,7 +166,7 @@ set(handles.blinks,'string',num2str(handles.bk))
 guidata(hObject,handles)
 
 idx = idx+1;
-catch
-end % end try
+%catch
+%end % end try
 drawnow
 end % end while 
