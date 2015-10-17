@@ -100,7 +100,7 @@ for i=3:numel(data) % without gyro
     disp(['  > Channel ' num2str(i-2) ' saved'])
     %C{i-2} = C{i-2} - mean(C{i-2}); % remove offset
 end
-%time = 0:1/fs:(length(C{1})-1)*1/fs; % time array
+time = 0:1/fs:(length(C{1})-1)*1/fs; % time array
 
 %================%
 % DETECT BLINKINGS
@@ -114,6 +114,7 @@ S = double(C{3}+C{12}+C{1}+C{14}-C{7}-C{8});
 threshold = 150;
 min_dist = 0; % in nb of pts
 subplot(1,3,2), findpeaks(S,'MinPeakProminence',threshold,'MinPeakDistance',min_dist,'Annotate','extents') % display local max
+xlabel('time []'),ylabel('Amplitude [uV]'), title('Blinkings identification')
 [peaks,locs,w,p] = findpeaks(S,'MinPeakProminence',threshold,'MinPeakDistance',min_dist);
 w = w/fs;
 
@@ -156,7 +157,7 @@ disp(['> New ref is ' num2str(ref) ' bk/sec'])
 
 % plot ref
 subplot(1,3,3), plot(idx,temp,'rd'), hold on
-xlim([0 idx+1]), title('Temp bk rate /sec')
+xlim([0 idx+1]), title('Temp bk rate /sec'), xlabel('Nb of segments'), ylabel('bk/sec')
 % display "warning"
 if warning==1, set(handles.warning,'visible','on'), end
 % iterate the bk number on the interface
