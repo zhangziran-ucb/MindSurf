@@ -73,8 +73,6 @@ while confirm==0
         disp(['> File ' current_file ' existing'])
         data = textscan(file,'%q %q %d %d %d %d %d %d %d %d %d %d %d %d %d %d','HeaderLines',1,'Delimiter','\t');
         %data = textscan(file,'%d %d %d %d','HeaderLines',1,'Delimiter','\t');
-        length = numel(data{1})
-        expected = seg_time*fs
         if numel(data{1}) == seg_time*fs
         %if numel(data{1})==10+1
             disp(['> File ' current_file ' complete'])
@@ -155,7 +153,7 @@ disp(['> New ref is ' num2str(ref) ' bk/sec'])
 %=================%
 
 % plot ref
-subplot(1,2,2), plot(temp,'rd'), hold on
+subplot(1,2,2), plot(idx,temp,'rd'), hold on
 xlim([0 idx+1])
 % display "warning"
 if warning==1, set(handles.warning,'visible','on'), end
