@@ -27,7 +27,7 @@ handles.output = hObject;
 clc
 % init data
 handles.bk = 0;
-handles.ref = 0;
+handles.ref = 0.2;
 handles.nb_seg = 0;
 set(handles.warning,'visible','off')
 % Update handles structure
@@ -108,14 +108,19 @@ time = 0:1/fs:(length(C{1})-1)*1/fs; % time array
 
 % define signal
 S = double(C{3}+C{12}+C{1}+C{14}-C{7}-C{8});
-%subplot(1,2,2), plot(S)
-%S = double(C{1});
+% filter filter
+[b,a] = butter(4,0.03,'high');
+Shigh = filter(b,a,S);
+S = S - Shigh;
+S = S - median(S);
+
 % find local maxs => artifacts
 threshold = 150;
+h_min = 100;
 min_dist = 0; % in nb of pts
-subplot(1,3,2), findpeaks(S,'MinPeakProminence',threshold,'MinPeakDistance',min_dist,'Annotate','extents') % display local max
+subplot(1,3,2), findpeaks(S,'MinPeakProminence',threshold,'MinPeakHeight',h_min','MinPeakDistance',min_dist,'Annotate','extents') % display local max
 xlabel('time []'),ylabel('Amplitude [uV]'), title('Blinkings identification')
-[peaks,locs,w,p] = findpeaks(S,'MinPeakProminence',threshold,'MinPeakDistance',min_dist);
+[peaks,locs,w,p] = findpeaks(S,'MinPeakProminence',threshold,'MinPeakHeight',h_min','MinPeakDistance',min_dist);
 w = w/fs;
 
 handles.bk = handles.bk + numel(w); % add number of peaks found
@@ -129,9 +134,10 @@ disp(['> Ref is ' num2str(ref) ' bk/sec'])
 temp = numel(w)/seg_time; % number of bk /sec in the last segment
 disp(['> Temp is ' num2str(temp) ' bk/sec'])
 % compare
-if temp > 2*ref, warning = 1; end
+if temp > 2*ref, warning = 1; else warning = 0; end
 % update ref
-X = [ref*ones(1,nb_seg) temp]; ref = mean(X);
+X = [ref*ones(1,nb_seg) temp]; ref = mean(X); 
+handles.ref = ref;
 disp(['> New ref is ' num2str(ref) ' bk/sec'])
 
 %=============%
@@ -155,11 +161,20 @@ disp(['> New ref is ' num2str(ref) ' bk/sec'])
 % ADAPT INTERFACE
 %=================%
 
+% define audio
+WarnWave = [sin(1:.6:400), sin(1:.7:400), sin(1:.4:400)];
+Audio = audioplayer(WarnWave, 22050);
+
 % plot ref
-subplot(1,3,3), plot(idx,temp,'rd'), hold on
+subplot(1,3,3), plot(idx,temp,'rd'), hold on, plot(idx,ref,'bx'), plot(idx,2*ref,'k-')
 xlim([0 idx+1]), title('Temp bk rate /sec'), xlabel('Nb of segments'), ylabel('bk/sec')
 % display "warning"
-if warning==1, set(handles.warning,'visible','on'), end
+if warning==1 
+    set(handles.warning,'visible','on')
+    play(Audio);
+else
+    set(handles.warning,'visible','off')
+end
 % iterate the bk number on the interface
 set(handles.blinks,'string',num2str(handles.bk))
 
