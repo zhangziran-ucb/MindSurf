@@ -47,9 +47,9 @@ pause off
 %==================%
 
 idx = 0;
-%root = '..\..\data\emokit' % root AD
+root = '..\..\data\emokit' % root AD
 %root = '/Users/GG/MindSurf/data/emokit'; % root GG
-root = '/Users/GG/Documents/Documents/Etudes/ESPCI_Paristech/4A/ITE_Berkeley/Emotiv/RT_test'; % temp root for test
+%root = '/Users/GG/Documents/Documents/Etudes/ESPCI_Paristech/4A/ITE_Berkeley/Emotiv/RT_test'; % temp root for test
 cd(root)
 
 nb_seg = handles.nb_seg;
