@@ -39,28 +39,28 @@ second_sec = mindwave(786:1297,:);
 
 figure
 subplot(5, 1, 1)
-plot(alpha2)
+plot(alpha2), ylabel('alpha')
 subplot(5, 1, 2)
-plot(beta2)
+plot(beta2), ylabel('beta')
 subplot(5, 1, 3)
-plot(gamma2)
+plot(gamma2), ylabel('gamma')
 subplot(5, 1, 4)
-plot(delta2)
+plot(delta2), ylabel('delta')
 subplot(5, 1, 5)
-plot(theta2)
+plot(theta2), ylabel('theta')
 
 double_window = mindwave(274:1297,:);
 [a, b, g, d, t] = deconstructRAW(double_window(:,4));
 
 figure
 subplot(5, 1, 1)
-plot(a)
+plot(a), ylabel('alpha')
 subplot(5, 1, 2)
-plot(b)
+plot(b), ylabel('beta')
 subplot(5, 1, 3)
-plot(g)
+plot(g), ylabel('gamma')
 subplot(5, 1, 4)
-plot(d)
+plot(d), ylabel('delta')
 subplot(5, 1, 5)
-plot(t)
+plot(t), ylabel('theta')
 

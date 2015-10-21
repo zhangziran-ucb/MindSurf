@@ -20,7 +20,7 @@ test_time = 5; %predicted time in minutes of test. overestimate
     data.beta2,...
     data.gamma1,...
     data.gamma2,...
-    data.blink] = zeros(1,512*60*test_time);
+    data.blink] = deal(zeros(1,512*60*test_time));
 
 portnum1 = 4;   %COM Port #
 comPortName1 = sprintf('\\\\.\\COM%d', portnum1);
@@ -35,10 +35,24 @@ TG_STREAM_PACKETS =     0;
 
 
 % Data type that can be requested from TG_GetValue().
-TG_DATA_RAW =         4;
+TG_DATA_POOR_SIGNAL =     1;
+TG_DATA_ATTENTION =       2;
+TG_DATA_MEDITATION =      3;
+TG_DATA_RAW =             4; 
+TG_DATA_DELTA =           5;
+TG_DATA_THETA =           6;
+TG_DATA_ALPHA1 =          7;
+TG_DATA_ALPHA2 =          8;
+TG_DATA_BETA1 =           9;
+TG_DATA_BETA2 =          10;
+TG_DATA_GAMMA1 =         11;
+TG_DATA_GAMMA2 =         12;
+TG_DATA_BLINK_STRENGTH = 37;
 
 %load thinkgear dll
-loadlibrary('Thinkgear.dll');
+if not(libisloaded('Thinkgear.dll'))
+    loadlibrary('Thinkgear.dll')
+end
 fprintf('Thinkgear.dll loaded\n');
 
 %get dll version
@@ -88,6 +102,7 @@ while (i < 512*60*test_time)   %stop when record is full
         if (calllib('Thinkgear','TG_GetValueStatus',connectionId1,TG_DATA_RAW) ~= 0)   %if RAW has been updated 
             j = j + 1;
             i = i + 1;
+            print i
             data.att(i) = calllib('Thinkgear','TG_GetValue',connectionId1,TG_DATA_ATTENTION); % attention data
             data.med(i) = calllib('Thinkgear','TG_GetValue',connectionId1,TG_DATA_MEDITATION); % meditation data
             data.raw(i) = calllib('Thinkgear','TG_GetValue',connectionId1,TG_DATA_RAW); % raw data

@@ -7,7 +7,7 @@ close all
 
 data = zeros(1,256);    %preallocate buffer
 
-portnum1 = 4;   %COM Port #
+portnum1 = 5;   %COM Port #
 comPortName1 = sprintf('\\\\.\\COM%d', portnum1);
 
 
@@ -67,6 +67,7 @@ fprintf( 'Connected.  Reading Packets...\n' );
 j = 0;
 i = 0;
 while (i < 10240)   %loop for 20 seconds
+    
     if (calllib('Thinkgear','TG_ReadPackets',connectionId1,1) == 1)   %if a packet was read...
         
         if (calllib('Thinkgear','TG_GetValueStatus',connectionId1,TG_DATA_RAW) ~= 0)   %if RAW has been updated 
